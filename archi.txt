@@ -1,0 +1,42 @@
+---------------   Investigacion Sobre Node JS  ------------------
+
+
+Node JS => 
+Node.js es un entorno de ejecución de JavaScript del lado del servidor
+construido sobre el motor V8 de Google Chrome. Permite a los desarrolladores
+ejecutar JavaScript fuera de un navegador, lo que significa que pueden escribir 
+código en JavaScript para el lado del servidor.
+Algunas características importantes son:
+
+
+Event-Driven y Asíncrono: Node.js es no bloqueante y basado en eventos.
+Esto significa que puede manejar muchas conexiones concurrentes de manera eficiente.
+
+Librería Estandarizada: Viene con una amplia librería estándar que proporciona módulos
+para diversas funcionalidades, lo que permite a los desarrolladores construir aplicaciones
+web escalables y rápidas.
+
+NPM (Node Package Manager): Es el gestor de paquetes predeterminado de Node.js. Ofrece acceso a una amplia
+gama de paquetes y módulos de terceros para diferentes funcionalidades.
+
+
+
+Express => 
+
+Express es un marco de aplicación web de Node.js minimalista y flexible que proporciona
+una capa de abstracción sobre Node para simplificar el desarrollo de aplicaciones web y API.
+Algunas características importantes son:
+
+Enrutamiento: Express simplifica la definición de rutas para diferentes endpoints de la aplicación.
+
+Middleware: Permite la incorporación de funciones de middleware que manipulan las solicitudes antes de que lleguen a las rutas finales, lo que permite una gran flexibilidad en la aplicación.
+
+Manejo de solicitudes y respuestas: Facilita la manipulación de solicitudes y respuestas HTTP, lo que hace que el desarrollo de aplicaciones web sea más sencillo y legible.
+
+Plantillas: Permite el uso de diferentes motores de plantillas para generar vistas dinámicas, como EJS o Pug.
+
+Despliegue de Node.js y Express en AWS
+Para desplegar una aplicación Node.js y Express en AWS, es esencial comprender cómo configurar una instancia EC2, instalar Node.js, clonar tu proyecto desde un repositorio, instalar dependencias, ejecutar la aplicación y, si es necesario, configurar un servidor web como Nginx para redirigir el tráfico. Además, debes considerar la gestión de la seguridad y las buenas prácticas para mantener tu aplicación segura.
+
+Estos son los pasos generales para desplegar una aplicación Node.js y Express en un entorno AWS. Es fundamental personalizar estos pasos según las necesidades específicas de tu aplicación y entorno.
+
